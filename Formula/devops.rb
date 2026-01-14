@@ -4,7 +4,7 @@ class Devops < Formula
   desc "Development Environment Topology Visualizer - TUI for exploring your dev setup"
   homepage "https://github.com/jamesrisberg/devops"
   url "https://github.com/jamesrisberg/devops/releases/download/v0.1.0/devops-0.1.0.tar.gz"
-  sha256 "5869b8f7e88082fc4f96dcacfe40c194292dab257b35ae12d8ac9005cf446a16"
+  sha256 "04efcc09f66e1c3b01c00c578621cd9436009993fa43c50bf2edd3dcb1218774"
   license "MIT"
 
   depends_on "python@3.12"
