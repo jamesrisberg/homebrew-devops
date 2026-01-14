@@ -2,8 +2,8 @@ class Devops < Formula
   include Language::Python::Virtualenv
 
   desc "Development Environment Topology Visualizer - TUI for exploring your dev setup"
-  homepage "https://github.com/jrisberg/devops"
-  url "https://github.com/jrisberg/devops/releases/download/v0.1.0/devops-0.1.0.tar.gz"
+  homepage "https://github.com/jamesrisberg/devops"
+  url "https://github.com/jamesrisberg/devops/releases/download/v0.1.0/devops-0.1.0.tar.gz"
   sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
   license "MIT"
 
