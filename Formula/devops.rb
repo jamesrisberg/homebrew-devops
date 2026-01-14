@@ -10,13 +10,13 @@ class Devops < Formula
   depends_on "python@3.12"
 
   resource "textual" do
-    url "https://files.pythonhosted.org/packages/source/t/textual/textual-0.47.0.tar.gz"
-    sha256 "613912041aa8739e4ef728bb298b6d00f2bfe3fe528ac64bc0ccc06f4ff656e0"
+    url "https://files.pythonhosted.org/packages/15/4b/24ae02d857ec0fa6661d27a989994e65c6a3b3d56c7177b2d8e022d29ccc/textual-7.2.0.tar.gz"
+    sha256 "5355f2dc16fbdc452a714dee2e440125e33b82373b3032cb53bea96e7019fa0b"
   end
 
   resource "rich" do
-    url "https://files.pythonhosted.org/packages/source/r/rich/rich-13.7.0.tar.gz"
-    sha256 "5cb5123b5cf9ee70584244246816e9114227e0b98ad9176eede6ad54bf5403fa"
+    url "https://files.pythonhosted.org/packages/fb/d2/8920e102050a0de7bfabeb4c4614a49248cf8d5d7a8d01885fbb24dc767a/rich-14.2.0.tar.gz"
+    sha256 "73ff50c7c0c1c77c8243079283f4edb376f0f6442433aecb8ce7e6d0b92d1fe4"
   end
 
   resource "pyperclip" do
@@ -29,14 +29,19 @@ class Devops < Formula
     sha256 "e3f60a94fa066dc52ec76661e37c851cb232d92f9886b15cb560aaada2df8feb"
   end
 
+  resource "mdit-py-plugins" do
+    url "https://files.pythonhosted.org/packages/b2/fd/a756d36c0bfba5f6e39a1cdbdbfdd448dc02692467d83816dff4592a1ebc/mdit_py_plugins-0.5.0.tar.gz"
+    sha256 "f4918cb50119f50446560513a8e311d574ff6aaed72606ddae6d35716fe809c6"
+  end
+
   resource "mdurl" do
     url "https://files.pythonhosted.org/packages/source/m/mdurl/mdurl-0.1.2.tar.gz"
     sha256 "bb413d29f5eea38f31dd4754dd7377d4465116fb207585f97bf925588687c1ba"
   end
 
   resource "pygments" do
-    url "https://files.pythonhosted.org/packages/source/p/pygments/pygments-2.17.2.tar.gz"
-    sha256 "da46cec9fd2de5be3a8a784f434e4c4ab670b4ff54d605c4c2717e9d49c4c367"
+    url "https://files.pythonhosted.org/packages/b0/77/a5b8c569bf593b0140bde72ea885a803b82086995367bf2037de0159d924/pygments-2.19.2.tar.gz"
+    sha256 "636cb2477cec7f8952536970bc533bc43743542f70392ae026374600add5b887"
   end
 
   resource "platformdirs" do
